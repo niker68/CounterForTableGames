@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="color1">#97805F</color>
+    <color name="color2">#715E41</color>
+    <color name="color3">#6B512B</color>
+    <color name="color4">#5C4119</color>
+    <color name="color5">#452C08</color>
+
+    <color name="color6">#2F210B</color>
+    -->
+
+    <!--
+    <color name="color1">#CEC8BF</color>
+    <color name="color2">#715E41</color>
+    <color name="color3">#918C85</color>
+    <color name="color4">#2F210B</color>
+    <color name="color5">#484A4C</color>
+    -->
+
+    <color name="color11">#76f5fc</color>
+    <color name="color21">#99f9f7</color>
+    <color name="color31">#a3f1f5</color>
+    <color name="color41">#b9ffff</color>
+    <color name="color51">#c6f7f4</color>
+
+    <color name="color1">#FFE1BE</color>
+    <color name="color2">#715E41</color>
+    <color name="color3">#CE9F68</color>
+    <color name="color4">#5C4119</color>
+    <color name="color5">#6B512B</color>
+
+    <color name="color6">#2F210B</color>
+
+    <color name="color6Text">#725129</color>
+    <color name="colorBackGround">#97805F</color>
+    <color name="colorText">#000000</color>
+    <color name="colorPrimary">#4d220e</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#8b4513</color>
+    <color name="colorRED">#b22222</color>
+    <color name="colorWHITE">#DCDCDC</color>
+    <color name="colorBLACK">#333333</color>
+    <color name="colorBLUE">#4169e1</color>
+    <color name="colorGREEN">#32cd32</color>
+    <color name="colorPURPLE">#ba55d3</color>
+    <color name="colorYELLOW">#ffd700</color>
+    <color name="colorBROWN">#8B4513</color>
+    <color name="colorPINK">#ff69b4</color>
+    <color name="colorGRAY">#808080</color>
+    <color name="colorORANGE">#ff8c00</color>
+
+</resources>

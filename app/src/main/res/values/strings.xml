@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Score counter</string>
+    <string name="banner_id_unit_id">ca-app-pub-3675146285571777/3592134537</string>
+    <string name="banner_id_unit_id_land">ca-app-pub-3675146285571777/9311913819</string>
+    <string name="banner_id_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_id_unit_id_test_land">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
