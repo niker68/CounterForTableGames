@@ -98,8 +98,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
-
         //app ID
         MobileAds.initialize(getApplicationContext(), "ca-app-pub-3675146285571777~9686769595");
         final AdView mAdView = (AdView) findViewById(R.id.adView);
@@ -115,8 +113,6 @@ public class MainActivity extends AppCompatActivity {
             public void onAdFailedToLoad(int error) {
                 mAdView.setVisibility(View.GONE);
             }
-
-
 
             @Override
             public void onAdLoaded() {
@@ -389,7 +385,7 @@ public class MainActivity extends AppCompatActivity {
                 counter0++;
 
                 view0.setText(String.valueOf(counter0));
-                // the code to execute repeatedly
+
             }
         }));
 
@@ -406,34 +402,22 @@ public class MainActivity extends AppCompatActivity {
                 counter1++;
 
                 view1.setText(String.valueOf(counter1));
-                // the code to execute repeatedly
+
             }
         }));
 
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
+
         button12.setOnTouchListener(new RepeatListener(400, 100, new android.view.View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 counter2++;
 
                 view2.setText(String.valueOf(counter2));
-                // the code to execute repeatedly
+
             }
         }));
 
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
+
         button13.setOnTouchListener(new RepeatListener(400, 100, new android.view.View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -444,13 +428,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
+
         button14.setOnTouchListener(new RepeatListener(400, 100, new android.view.View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -461,13 +439,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
+
         button15.setOnTouchListener(new RepeatListener(400, 100, new android.view.View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -478,13 +450,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
 
         button30.setOnTouchListener(new RepeatListener(400, 100, new android.view.View.OnClickListener(){
             @Override
@@ -496,13 +461,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
+
         button31.setOnTouchListener(new RepeatListener(400, 100, new android.view.View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -513,13 +472,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
+
         button32.setOnTouchListener(new RepeatListener(400, 100, new android.view.View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -530,13 +483,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
+
         button33.setOnTouchListener(new RepeatListener(400, 100, new android.view.View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -547,13 +494,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
+
         button34.setOnTouchListener(new RepeatListener(400, 100, new android.view.View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -564,13 +505,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }));
 
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
         button35.setOnTouchListener(new RepeatListener(400, 100, new android.view.View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -580,14 +514,6 @@ public class MainActivity extends AppCompatActivity {
                 // the code to execute repeatedly
             }
         }));
-
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
-                String text = (String) msg.obj;
-                textTimer.setText( text );
-            }
-        };
 
         //textTimer=(TextView)findViewById(R.id.textTimer);
         //textTimer.setText(timer);
@@ -1167,8 +1093,6 @@ public class MainActivity extends AppCompatActivity {
                         Thread.sleep(1000);
                         //TimeUnit.SECONDS.sleep(1);
                     }
-
-
                 }
 
             catch(Exception e){
